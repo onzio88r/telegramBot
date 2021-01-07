@@ -1,0 +1,22 @@
+{
+    "name": "group3Dmanager_bot",
+    "version": "1.0.0",
+    "description": "Telegram Bot Manager",
+    "main": "group3Dmanager_bot.js",
+    "scripts": {
+      "prod": "export NODE_ENV=production && nodemon group3Dmanager_bot.js"
+    },
+    "author": "danielemaker drfiveone",
+    "license": "ISC",
+    "dependencies": {
+      "csv-parser": "^2.3.2",
+      "csv-write-stream": "^2.0.0",
+      "csv-writer": "^1.6.0",
+      "custom-env": "^2.0.1",
+      "dotenv": "^8.2.0",
+      "fs": "0.0.1-security",
+      "lodash": "^4.17.20",
+      "telegraf": "^3.36.0"
+    }
+  }
+  
